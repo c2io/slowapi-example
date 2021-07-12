@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "slowapi-example"
+version = "0.1.0"
+description = ""
+authors = ["chazzhuang <chazzhuang@tecent.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.66.0"
+uvicorn = "^0.14.0"
+slowapi = "^0.1.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+black = "^21.6b0"
+flake8 = "^3.9.2"
+locust = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
